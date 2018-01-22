@@ -1,0 +1,184 @@
+body {
+  font-size: 10px;
+  color: #777;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: .9rem;
+  line-height: 1.4rem;
+  overflow-x: hidden;
+}
+
+section {
+  margin-top: 6rem;
+}
+
+a {
+  text-decoration: none;
+  color: #777;
+  text-transform: uppercase;
+  font-size: .7rem;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #cb356b;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.center {
+  margin: auto;
+}
+
+h1 {
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  padding: 2rem 0;
+}
+
+h3 {
+  font-size: 1.1rem;
+  line-height: 1.4rem;
+  padding-top: 1.2rem;
+}
+
+.btn {
+  border-radius: 30rem;
+  padding: .7rem 1.9rem;
+  font-size: 1rem;
+}
+
+.btn-filled {
+  background: #f3f3f3;
+}
+
+.form-group a {
+  padding-left: 2rem;
+  font-size: .8rem;
+  font-weight: 700;
+  color: #f3f3f3;
+}
+
+.navbar-transparent {
+  background: transparent;
+}
+
+.nav-link {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: .8rem;
+}
+
+.nav-link li:hover {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: .8rem;
+}
+
+.header {
+  width: 100%;
+  min-height: 92vh;
+  background: #cb356b;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(203, 53, 107, 0.9)), to(rgba(189, 63, 50, 0.9))), url("../images/hero.jpg");
+  background-image: linear-gradient(to right bottom, rgba(203, 53, 107, 0.9), rgba(189, 63, 50, 0.9)), url("../images/hero.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+.intro {
+  padding-top: 12rem;
+  color: #f3f3f3;
+}
+
+.card {
+  border: none;
+  background: none;
+}
+
+.newsletter {
+  margin: 0 auto;
+  margin-top: 6rem;
+  height: 40vh;
+  min-height: 20rem;
+  background: #cb356b;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(203, 53, 107, 0.9)), to(rgba(189, 63, 50, 0.9))), url("../images/hero.jpg");
+  background-image: linear-gradient(to right bottom, rgba(203, 53, 107, 0.9), rgba(189, 63, 50, 0.9)), url("../images/hero.jpg");
+  background-size: cover;
+  background-position: top;
+  color: #f3f3f3;
+}
+
+.newsletter-details {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 7%;
+}
+
+.testimonials {
+  background-color: #f3f3f3;
+  padding: 4rem 0;
+}
+
+input {
+  border-radius: 30rem;
+  border: none;
+  min-width: 60%;
+  height: 2rem;
+  padding: 1.2rem;
+}
+
+.section-one-of-three {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.important {
+  color: #cb356b;
+}
+
+.footer {
+  padding: 3rem 0;
+  background: #cb356b;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(203, 53, 107, 0.9)), to(rgba(189, 63, 50, 0.9))), url("../images/hero.jpg");
+  background-image: linear-gradient(to right bottom, rgba(203, 53, 107, 0.9), rgba(189, 63, 50, 0.9)), url("../images/hero.jpg");
+  background-size: cover;
+  background-position: top;
+  min-height: 100%;
+  color: #f3f3f3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.submenu {
+  list-style: none;
+  font-size: .8rem;
+  margin-left: -2.4rem;
+}
+
+@media only screen and (max-width: 620px) {
+  .not-important {
+    display: none !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */
