@@ -1,0 +1,1 @@
+$(window).scroll(function(){$(window).scrollTop()>300?$(".navbar").addClass("show"):$(".navbar").removeClass("show")});

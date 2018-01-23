@@ -27,7 +27,8 @@ body {
 	overflow-x: hidden;
 }
 
-section {
+section,
+footer {
 	margin-top: 6rem;
 }
 
@@ -171,9 +172,37 @@ input {
 	margin-left: -2.4rem;
 }
 
+.navbar {
+    background: transparent;
+	opacity: 1;
+}
+
+.show {
+	background: $colorImportant;
+	opacity: 1;
+	transition-duration: 1.2s;
+}
+
+.producer {
+	height: 90px;
+	margin: 4rem 0;
+	filter: grayscale(100%);
+	opacity: .1;
+}
+
+.producer:hover {
+	filter: none;
+	opacity: 1;
+}
+
 // media queries
 @media only screen and (max-width: 620px) {
 	.not-important {
 		display: none !important;
+	}
+
+	.expanded-menu,
+	.footer-logo {
+		margin: 0 auto;
 	}
     }
